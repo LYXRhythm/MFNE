@@ -39,10 +39,11 @@ pip install numpy scikit-learn
 ### 2. Run the code
 ```bash
 cd code
-python MFNE.py
+python MFNE.py        # CPU Version
+python MFNE_GPU.py    # GPU Version
 ```
 
-You can run MFNE.py:
+You can run MFNE.py or MFNE_GPU.py:
 ```python
 if __name__ == '__main__':
     data = pd.read_csv("../datasets/german_1_14_variant1.csv").values
