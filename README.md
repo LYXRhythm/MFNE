@@ -1,4 +1,4 @@
-# KFGOD
+# MFNE
 Granular-Ball Fuzzy Neighborhood Entropy-based Outlier Detector (SUBMISSION TO IEEE TRANSACTIONS ON FUZZY SYSTEMS, PyTorch Code)
 
 Authors: Yongxiang Li, Xinyu Su, Weili Jiang, Gadeng Luosang, Hongmei Chen, and Zhong Yuan
