@@ -80,7 +80,7 @@ You can get outputs as follows:
  0.44459692 0.40616626 0.44780287 0.42514779 0.48054545 0.49344408]
 ```
 ## Citation
-If you find KFGOD useful in your research, please consider citing:
+If you find MFNE useful in your research, please consider citing:
 ```
 @article{li2026multi,
   title={Multi-Granularity Fuzzy Neighborhood Entropy-based Outlier Detector},
