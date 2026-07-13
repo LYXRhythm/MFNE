@@ -1,5 +1,6 @@
 # MFNE
-Granular-Ball Fuzzy Neighborhood Entropy-based Outlier Detector (SUBMISSION TO IEEE TRANSACTIONS ON FUZZY SYSTEMS, PyTorch Code)
+Granular-Ball Fuzzy Neighborhood Entropy-based Outlier Detector (IEEE Transactions on Fuzzy Systems, PyTorch Code)
+Authors: Yongxiang Li, Xinyu Su, Weili Jiang, Gadeng Luosang, Hongmei Chen, and Zhong Yuan
 
 ## Abstract
 Outlier detection has become a key research focus in data mining, aiming to identify rare objects that significantly deviate from normal patterns. Fuzzy neighborhood rough sets, as an important granular computing model, provide a powerful tool for handling uncertainty information in data. However, existing fuzzy neighborhood rough outlier detectors rely on a fixed paradigm that uses single-granularity samples as the basic processing unit. This paradigm leads to low efficiency, sensitivity to noise, and underutilization of multi-granularity information, ultimately impairing outlier detection performance. Granular-ball computing, by representing data with multi-granularity granular-balls, offers an effective framework for fusing and leveraging multi-granularity information, enabling more comprehensive extraction of abnormal features. Based on this, we propose a Multi-granularity Fuzzy Neighborhood Entropy-based outlier detector (MFNE). In MFNE, we first integrate granular-ball computing with fuzzy neighborhood rough sets to develop a multi-granularity fuzzy neighborhood rough sets model and extend existing uncertainty measures. Subsequently, we propose a multi-granularity fuzzy neighborhood relative entropy fusion strategy, which leverages this approach to effectively utilize the uncertainty information in the data. Finally, we calculate the outlier scores of granular-balls by fusing the deviation degrees of multiple multi-granularity fuzzy neighborhood information granules and map these scores back to individual samples to obtain their outlier scores. Extensive experiments demonstrate that MFNE outperforms state-of-the-art methods on 16 datasets, validating its effectiveness.
@@ -15,7 +16,7 @@ Outlier detection has become a key research focus in data mining, aiming to iden
 │   └── MFNE.py                           # Main entry point
 ├── datasets/                             # Benchmark datasets used in the paper
 ├── paper/                                # Original paper
-│   └── 10__Multi_Granularity_Fuzzy_Neighborhood_Entropy_based_Outlier_Detector__IEEE_TFS_.pdf
+│   └── Multi_Granularity_Fuzzy_Neighborhood_Entropy_based_Outlier_Detector.pdf
 │   └── MFNE_structure.png
 └── README.md                             # Project readme
 ```
@@ -77,4 +78,15 @@ You can get outputs as follows:
  0.47660625 0.45357573 0.44615111 0.42795297 0.44402034 0.4564456
  0.44459692 0.40616626 0.44780287 0.42514779 0.48054545 0.49344408]
 ```
+```
+
+## Citation
+If you find MFNE useful in your research, please consider citing:
+```
+@article{li2025granular,
+  title={Granular-Ball Fuzzy Neighborhood Entropy-based Outlier Detector},
+  author={Li, Yongxiang and Su, Xinyu and Jiang, Weili and Luosang, Gadeng and Chen, Hongmei and Yuan, Zhong},
+  journal={IEEE Transactions on Fuzzy Systems},
+  year={2026},
+}
 ```
