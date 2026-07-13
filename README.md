@@ -78,7 +78,7 @@ You can get outputs as follows:
  0.47660625 0.45357573 0.44615111 0.42795297 0.44402034 0.4564456
  0.44459692 0.40616626 0.44780287 0.42514779 0.48054545 0.49344408]
 ```
-```
+
 
 ## Citation
 If you find MFNE useful in your research, please consider citing:
@@ -89,4 +89,5 @@ If you find MFNE useful in your research, please consider citing:
   journal={IEEE Transactions on Fuzzy Systems},
   year={2026},
 }
+```
 ```
